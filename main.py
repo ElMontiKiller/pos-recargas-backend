@@ -6,7 +6,7 @@ app = FastAPI(title="POS Recargas BDV")
 
 # Sustituye "TU_SERVIC" con la llave service_role que copiaste de Supabase
 SUPABASE_URL = "https://eujcxycnqbvhsajcljyd.supabase.co"
-SUPABASE_KEY = "sb_secret_sJwDKoA-JykLCT-f5IesEA_GSdujvdz"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1amN4eWNucWJ2aHNhamNsanlkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc5MDg2MjQ1MiwiZXhwIjoyMTA2NDM4NDUyfQ.goDx-GESxjbKugQuC2eAeuTwjcMURCsUWAUCQBq-M-c"
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
